@@ -1,0 +1,256 @@
+[
+    {
+      "id": 1,
+      "name": "Cafe Management System - API of Bill, Dashboard (Angular, Spring Boot - Java, MySQL Database)",
+      "thumbnail":"https://img.youtube.com/vi/tgDLvGQJdqg/default.jpg",
+      "shortDescription":"Netbeans, MySql Database, Java, Html, JSP",
+      "videoLink":"https://www.youtube.com/embed/tgDLvGQJdqg",
+      "content": "C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. Originally intended for writing system software, C was developed at Bell Labs by Dennis Ritchie for the Unix Operating System in the early 1970s."
+    },
+    {
+      "id": 2,
+      "name": "What is modular programming?",
+      "thumbnail":"https://img.youtube.com/vi/BIQAdykFyVo/default.jpg",
+      "content": "Modular programming is a program design technique in which a large program is divided into sub programs/ functions that are called modules, it improve maintainability of a program. It makes software development, debug, modify, update faster and easy."
+    },
+    {
+      "id": 3,
+      "name": "When is the “void” keyword used in a function?",
+      "content": "When declaring functions, you will decide whether that function would be returning a value or not. If that function will not return a value, such as when the purpose of a function is to display some outputs on the screen, then “void” is to be placed at the leftmost part of the function header. When a return value is expected after the function execution, the data type of the return value is placed instead of “void”."
+    },
+    {
+      "id": 4,
+      "name": "Describe the difference between = and == symbols in C programming?",
+      "content": " ‘==’ is the comparison operator which is used to compare the value or expression on the left-hand side with the value or expression on the right-hand side & ‘=’ is the assignment operator which is used to assign the value of the right-hand side to the variable on the left-hand side."
+    },
+    {
+      "id": 5,
+      "name": "What is a nested loop?",
+      "content": "A loop that runs within another loop is referred to as a nested loop. The first loop is called the Outer Loop and the inside loop is called the Inner Loop. The inner loop executes the number of times defined in an outer loop."
+    },
+    {
+      "id": 6,
+      "name": "What are the valid places to have keyword “Break”?",
+      "content": "The purpose of the Break keyword is to bring the control out of the code block which is executing. It can appear only in looping or switch statements."
+    },
+    {
+      "id": 7,
+      "name": "What is wrong in this statement? scanf(“%d”,evnumber);",
+      "content": "An ampersand & symbol must be placed before the variable name evnumber. Placing & means whatever integer value is entered by the user is stored at the “address” of the variable name. This is a common mistake for programmers, often leading to logical errors."
+    },
+    {
+      "id": 8,
+      "name": "What is the explanation for modular programming?",
+      "content": "The process of dividing the main program into executable subsection is called module programming. This concept promotes code reusability."
+    },
+    {
+      "id": 9,
+      "name": "What is the function of s++ and ++s?",
+      "content": "s++ is a single machine instruction used to increment the value of s by 1. (Post increment). ++s is used to carry out pre-increment."
+    },
+    {
+      "id": 10,
+      "name": "Why is int known as a reserved word?",
+      "content": "As int is a part of standard C language library, and it is not possible to use it for any other activity except its intended functionality, it is known as a reserved word."
+    },
+    {
+      "id": 11,
+      "name": "What is meant by Call by reference? ",
+      "content": "When a variable’s value is sent as a parameter to a function, it is known as call by reference. The process can alter the value of the variable within the function."
+    },
+    {
+      "id": 12,
+      "name": "Can a program be compiled without main() function?",
+      "content": "Yes, it can be but cannot be executed, as the execution requires main() function definition."
+    },
+    {
+      "id": 13,
+      "name": "What is the difference between Call by Value and Call by Reference?",
+      "content": "Call by value − We send only values to the function as parameters. We choose this if we do not want the actual parameters to be modified with formal parameters but just used.<br><br>Call by reference − We send address of the actual parameters instead of values. We choose this if we do want the actual parameters to be modified with formal parameters."
+    },
+    {
+      "id": 14,
+      "name": "What are pointers?",
+      "content": "A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location. Like any variable or constant, you must declare a pointer before using it to store any variable address."
+    },
+    {
+      "id": 15,
+      "name": "What is the advantage of declaring void pointers?",
+      "content": "When we do not know what type of the memory address the pointer variable is going to hold, then we declare a void pointer for such."
+    },
+    {
+      "id": 16,
+      "name": "What is a NULL pointer?",
+      "content": "A pointer pointing to nothing is called so. Example: char *p=NULL;"
+    },
+    {
+      "id": 17,
+      "name": "S++ or S = S+1, which can be recommended to increment the value by 1 and why?",
+      "content": "S++, as it is single machine instruction (INC) internally."
+    },
+    {
+      "id": 18,
+      "name": "What is the difference between arrays and pointers?",
+      "content": "Pointers are used to manipulate data using the address. Pointers use * operator to access the data pointed to by them.<br><br>Arrays use subscripted variables to access and manipulate data. Array variables can be equivalently written using pointer expression."
+    },
+    {
+      "id": 19,
+      "name": "What is a built-in function in C?",
+      "content": "The most commonly used built-in functions in C are sacnf(), printf(), strcpy, strlwr, strcmp, strlen, strcat, and many more.Built-function is also known as library functions that are provided by the system to make the life of a developer easy by assisting them to do certain commonly used predefined tasks. For example, if you need to print output or your program into the terminal, we use printf() in C."
+    },
+    {
+      "id": 20,
+      "name": "What is the memory leak in C?",
+      "content": "A memory leak is a common and dangerous problem. It is a type of resource leak. In C language, a memory leak occurs when you allocate a block of memory using the memory management function and forget to release it."
+    },
+    {
+      "id": 21,
+      "name": "What is the use of a semicolon (;) at the end of every program statement?",
+      "content": "It is majorly related to how the compiler reads( or parses) the entire code and breaks it into a set of instructions(or statements), to which semicolon in C acts as a boundary between two sets of instructions."
+    },
+    {
+      "id": 22,
+      "name": "Explain Recursion ?",
+      "content": "Recursion is the technique in which a function is called by itself again and again."
+    },
+    {
+      "id": 23,
+      "name": "What is Preprocessor ?",
+      "content": "It processes the source code, before compilation, by adding external libraries, unzipping macros etc."
+    },
+    {
+      "id": 24,
+      "name": "What is malloc() in C?",
+      "content": "The name malloc stands for memory allocation. The malloc() function reserves a block of memory of the specified number of bytes. And, it returns a pointer of void which can be casted into pointers of any form."
+    },
+    {
+      "id": 25,
+      "name": "What is calloc() in C?",
+      "content": "The name calloc stands for contiguous allocation.The malloc() function allocates memory and leaves the memory uninitialized, whereas the calloc() function allocates memory and initializes all bits to zero."
+    },
+    {
+      "id": 26,
+      "name": "What is free() in C?",
+      "content": "Dynamically allocated memory created with either calloc() or malloc() doesn't get freed on their own. You must explicitly use free() to release the space."
+    },
+    {
+      "id": 27,
+      "name": "What is realloc() in C?",
+      "content": "If the dynamically allocated memory is insufficient or more than required, you can change the size of previously allocated memory using the realloc() function."
+    },
+    {
+      "id": 28,
+      "name": "What do you mean by the Scope of the variable? What is the scope of the variables in C?",
+      "content": "Scope of the variable can be defined as the part of the code area where the variables declared in the program can be accessed directly. In C, all identifiers are lexically (or statically) scoped. "
+    },
+    {
+      "id": 29,
+      "name": "Why is C called the Mother of all Languages?",
+      "content": "C introduced many core concepts and data structures like arrays, lists, functions, strings, etc. Many languages designed after C are designed on the basis of C Language. Hence, it is considered as the mother of all languages."
+    },
+    {
+      "id": 30,
+      "name": "What is the main difference between the Compiler and the Interpreter?",
+      "content": "Compiler is used in C Language and it translates the complete code into the Machine Code in one shot. On the other hand, Interpreter is used in Java Programming Langauge and other high-end programming languages. It is designed to compile code in line by line fashion."
+    },
+    {
+      "id": 31,
+      "name": "What is typecasting?",
+      "content": "Typecasting is a process of converting one data type into another is known as typecasting. If we want to store the floating type value to an int type, then we will convert the data type into another data type explicitly."
+    },
+    {
+      "id": 32,
+      "name": "What is an array in C?",
+      "content": "An Array is a group of similar types of elements. It has a contiguous memory location. It makes the code optimized, easy to traverse and easy to sort. The size and type of arrays cannot be changed after its declaration.Arrays are of two types: 1)One-dimensional array: One-dimensional array is an array that stores the elements one after the another. 2)Multidimensional array: Multidimensional array is an array that contains more than one array."
+    },
+    {
+      "id": 33,
+      "name": "What is an infinite loop?",
+      "content": "A loop running continuously for an indefinite number of times is called the infinite loop."
+    },
+    {
+      "id": 34,
+      "name": "What can be understood by variable and constant?",
+      "content": "In C language, both constant and variable is widely used while designing a program. The major difference is between variables, and constant is that variable can alter its assigned value at any point of the program. In contrast, the value of the constant remains unaltered during the entire program. The value of the constant is locked during the execution of the program. For example, pi's value can be set as a constant during the entire course of the program."
+    },
+    {
+      "id": 35,
+      "name": "What is Data Structure?",
+      "content": "The data structure is a way that specifies how to organize and manipulate the data. It also defines the relationship between them. Some examples of Data Structures are arrays, Linked List, Stack, Queue, etc. Data Structures are the central part of many computer science algorithms as they enable the programmers to handle the data in an efficient way."
+    },
+    {
+      "id": 36,
+      "name": "Which data structure is ideal to perform recursion operation and why?",
+      "content": "Stack is the most ideal for recursion operation. This is mainly because of its LIFO (Last In First Out) property, it remembers the elements & their positions, so it exactly knows which one to return when a function is called."
+    },
+    {
+      "id": 37,
+      "name": "What is a Stack?",
+      "content": "Stack is an ordered list in which, insertion and deletion can be performed only at one end that is called the top. It is a recursive data structure having pointer to its top element. The stack is sometimes called as Last-In-First-Out (LIFO) list i.e. the element which is inserted first in the stack will be deleted last from the stack."
+    },
+    {
+      "id": 38,
+      "name": "What is Queue?",
+      "content": "A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT."
+    },
+    {
+      "id": 39,
+      "name": "What is a dequeue?",
+      "content": "Dequeue (also known as double-ended queue) can be defined as an ordered set of elements in which the insertion and deletion can be performed at both the ends, i.e. front and rear."
+    },
+    {
+      "id": 40,
+      "name": "What is the minimum number of queues that can be used to implement a priority queue?",
+      "content": "Two queues are needed. One queue is used to store the data elements, and another is used for storing priorities."
+    },
+    {
+      "id": 41,
+      "name": "What is Tree?",
+      "content": "The Tree is a recursive data structure containing the set of one or more data nodes where one node is designated as the root of the tree while the remaining nodes are called as the children of the root. The nodes other than the root node are partitioned into the nonempty sets where each one of them is to be called sub-tree."
+    },
+    {
+      "id": 42,
+      "name": "What are Binary trees?",
+      "content": "A binary Tree is a special type of generic tree in which, each node can have at most two children. Binary tree is generally partitioned into three disjoint subsets, i.e. the root of the node, left sub-tree and Right binary sub-tree."
+    },
+    {
+      "id": 43,
+      "name": "Define the graph data structure?",
+      "content": "A graph G can be defined as an ordered set G(V, E) where V(G) represents the set of vertices and E(G) represents the set of edges which are used to connect these vertices. A graph can be seen as a cyclic tree, where the vertices (Nodes) maintain any complex relationship among them instead of having parent-child relations."
+    },
+    {
+      "id": 44,
+      "name": "Explain the difference between file structure and storage structure?",
+      "content": "File Structure: A hard disk or external device (such as USB), stores data that remains intact till manually deleted. Such a representation of data into secondary or auxiliary memory is called a file structure.<br><br>Storage Structure:  In this type of structure, data (variables, constants, etc.) are stored in the main memory, i.e. RAM, and is deleted once the function that uses this data gets completed."
+    },
+    {
+      "id": 45,
+      "name": "What is the difference between NULL and VOID?",
+      "content": "While NULL is a value, VOID is a data type identifier. A variable assigned with a NULL value represents an empty value. The VOID is used for identifying pointers having no initial size."
+    },
+    {
+      "id": 46,
+      "name": "How does a POP operation differ from a PUSH operation?",
+      "content": "Both PUSH and POP operations pertain to a stack. Data is added to the stack using the PUSH operation, while it is retrieved using the POP operation."
+    },
+    {
+      "id": 47,
+      "name": "How will you insert a new item in a binary search tree?",
+      "content": "As a binary search tree doesn’t allow for duplicates, the new item to be inserted must be unique. Assuming it is, we will proceed with checking whether the tree is empty or not. If it is empty, then the new item will be inserted in the root node.However, if the tree is non-empty then we will refer to the key of the new item. When it is smaller than the root item’s key, the new item will be added to the left subtree. If the new item’s key is bigger than the root item’s key, then the new item is inserted into the right subtree."
+    },
+    {
+      "id": 48,
+      "name": "What is hashing in data structure?",
+      "content": "The technique of converting a range of key values into a range of indexes of an array is known as hashing. It is possible to create associative data storage using hash tables where data indices can be found by providing the corresponding key values."
+    },
+    {
+      "id": 49,
+      "name": "If you are using C language to implement the heterogeneous linked list, what pointer type will you use?",
+      "content": "The heterogeneous linked list contains different data types in its nodes and we need a link, pointer to connect them. It is not possible to use ordinary pointers for this. So we go for void pointer. Void pointer is capable of storing pointer to any type as it is a generic pointer type."
+    },
+    {
+      "id": 50,
+      "name": "What is insertion sort?",
+      "content": "This algorithm is very popular with bridge players when they sort their cards. In this procedure, we pick up a particular value and then insert it at the appropriate place in the sorted sub list."
+    }
+  ]
